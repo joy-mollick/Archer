@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/prey_number"
+        android:layout_marginTop="200dp"
+        android:text="তোমার মোট শিকার সংখ্যা :"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/fitness"
+        android:text="তোমার ফিটনেস যুদ্ধ করার জন্য সঠিক নয় !!"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:text="যুদ্ধ-এ যাবো"
+        android:drawableTop="@drawable/arch"
+        android:id="@+id/yuddho"
+        android:background="@drawable/round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <Button
+        android:text="শিকার এ যাবো"
+        android:drawableTop="@drawable/horse"
+        android:id="@+id/prey"
+        android:background="@drawable/round_butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+</LinearLayout>
